@@ -1,0 +1,18 @@
+[26-Jan-2021 13:38:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Url' not found in /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php:433
+Stack trace:
+#0 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(507): Elementor\Controls_Manager->register_controls()
+#1 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(526): Elementor\Controls_Manager->get_controls()
+#2 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(683): Elementor\Controls_Manager->get_control('section')
+#3 /home/englishpers/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(413): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Element_Section), 'section_layout', Array, Array)
+#4 /home/englishpers/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1372): Elementor\Controls_Stack->add_control('section_layout', Array)
+#5 /home/englishpers/public_html/wp-c in /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php on line 433
+[26-Jan-2021 13:41:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Control_Url' not found in /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php:433
+Stack trace:
+#0 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(507): Elementor\Controls_Manager->register_controls()
+#1 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(526): Elementor\Controls_Manager->get_controls()
+#2 /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php(683): Elementor\Controls_Manager->get_control('section')
+#3 /home/englishpers/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(413): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Widget_Image), 'section_image', Array, Array)
+#4 /home/englishpers/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1372): Elementor\Controls_Stack->add_control('section_image', Array)
+#5 /home/englishpers/public_html/wp-conten in /home/englishpers/public_html/wp-content/plugins/elementor/includes/managers/controls.php on line 433
+[25-Mar-2021 21:20:42 UTC] PHP Warning:  set_time_limit() has been disabled for security reasons in /home/englishp/public_html/wp-admin/includes/class-wp-upgrader.php on line 471
+[25-Mar-2021 21:20:44 UTC] PHP Warning:  set_time_limit() has been disabled for security reasons in /home/englishp/public_html/wp-admin/includes/class-wp-upgrader.php on line 471
